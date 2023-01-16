@@ -20,8 +20,11 @@ jobs:
         with:
           name: dist-files
           path: |
-            dist/
-            package.json
+            dist/assets/logo.76a8d26b.png
+            dist/index.html
+            dist/assets/index.34ed278d.css
+            dist/assets/index.d590f20c.js
+       
   build:
     needs: test
     runs-on: ubuntu-latest
